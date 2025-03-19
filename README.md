@@ -1,4 +1,7 @@
 # BOOLEAN_FUNCTION_MINIMIZATION
+## Date: 12.03.2025
+## Developed by: MAHAJANANI.R
+## RegisterNumber: 212224230147
 
 **AIM:**
 
@@ -39,15 +42,16 @@ Hardware – PCs, Cyclone II , USB flasher
  input a,b,c,d;
  output f1;
  assign f1=((~b&~d)|(~a&b&d)|(a&b&~c));
- endmodule 
+ endmodule
+```
+```
  module funct2(w,x,y,z,f2);
  input w,x,y,z;
  output f2;
  assign f2=((~y&z)|(w&y)|(x&y));
  endmodule
 ``` 
-## Developed by: MAHAJANANI.R
-## RegisterNumber: 212224230147
+
 
 **RTL realization**
 
@@ -58,7 +62,10 @@ Hardware – PCs, Cyclone II , USB flasher
 **RTL**
 **Timing Diagram**
 
-![Screenshot 2024-12-06 113919](https://github.com/user-attachments/assets/18c8e01c-3d93-4392-a2c8-1b9945ca669d)
+![op1exp2](https://github.com/user-attachments/assets/14bf71e9-b26b-430f-8a00-244269c9d183)
+
+![op2exp2](https://github.com/user-attachments/assets/4cd61a64-261c-400e-9763-31619895d9c5)
+
 
 **Result:**
 
